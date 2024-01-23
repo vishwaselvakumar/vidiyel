@@ -2,8 +2,8 @@
     "vehicles": [
       {
         "id": 1,
-        "make": "Peugeot",
-        "model": "3008",
+        "make": "geot",
+        "model": "30",
         "type": "SUV",
         "transmission": "Automatic",
         "price_per_day": 100,
@@ -18,7 +18,7 @@
       {
         "id": 2,
         "make": "Ford",
-        "model": "Focus",
+        "model": "Foc",
         "type": "Hatchback",
         "transmission": "Automatic",
         "price_per_day": 70,
@@ -33,7 +33,7 @@
       {
         "id": 3,
         "make": "Renault",
-        "model": "Megane",
+        "model": "M",
         "type": "Sedan",
         "transmission": "Automatic",
         "price_per_day": 80,

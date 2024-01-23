@@ -53,14 +53,15 @@ const HomeScreen = ({ navigation }) => {
         </View>
 
         <View style={styles.titleSection}>
-          <Text style={styles.title}>Rent a Car</Text>
+          <Text style={styles.title}>Dr.Jothi Sir</Text>
+          <Text style={{marginLeft:42}}>CEO of vidiyel </Text>
         </View>
 
         <View style={styles.searchSection}>
           <View style={styles.searchPallet}>
             <TextInput
                 style={styles.searchInput}
-                placeholder="Search a Car"
+                placeholder="Search a Field"
                 onChangeText={(text) => searchVehicles(text)}
             />
             <View style={styles.searchIconArea}>
@@ -75,14 +76,14 @@ const HomeScreen = ({ navigation }) => {
 
         <View style={styles.typesSection}>
           <Text style={styles.typesTextActive}>All</Text>
-          <Text style={styles.typesText}>Suv</Text>
-          <Text style={styles.typesText}>Sedan</Text>
-          <Text style={styles.typesText}>Mpv</Text>
-          <Text style={styles.typesText}>Hatchback</Text>
+          <Text style={styles.typesText}>Water</Text>
+          <Text style={styles.typesText}>Forms</Text>
+          <Text style={styles.typesText}>Others</Text>
+          <Text style={styles.typesText}>Faq</Text>
         </View>
 
         <View style={styles.listSection}>
-          <Text style={styles.headText}>Most Rented</Text>
+          <Text style={styles.headText}>Crop Development</Text>
 
           <ScrollView style={styles.elementPallet}>
             {filteredVehicles.map((vehicle) => {
@@ -137,9 +138,11 @@ const styles = StyleSheet.create({
   },
   menuIconStyle: {
     width: 30,
+    marginTop:70,
   },
   faceIconStyle: {
-    width: 40,
+    width: 90,
+    marginTop:142,
   },
 
   titleSection: {
@@ -168,6 +171,7 @@ const styles = StyleSheet.create({
   searchInput: {
     width: 245,
     height: 30,
+    marginRight:-32,
 
     backgroundColor: "white",
   },
@@ -221,7 +225,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     backgroundColor: "white",
     flexDirection: "row",
-    marginBottom: 13,
+    marginBottom: 14,
+  
   },
   infoArea: {
     flex: 1,
